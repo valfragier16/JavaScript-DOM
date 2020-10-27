@@ -2,11 +2,7 @@ html,
 body {
   height: 100%;
   width: 100%;
-  /* background-image: url(./images/diversetech.jpeg); */
-  /* background-repeat: repeat; */
   background-color: #cccccc;
-  /* background-size: cover; */
-  /* opacity: 80%; */
 }
 
 h1 {
@@ -23,19 +19,6 @@ h1 {
   100% {
     transform: rotate(360deg);
   }
-}
-
-.got-characters {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-
-.character {
-  background-color: white;
-  border: solid black 3px;
-  margin: 15px auto;
-  width: 425px;
 }
 
 h3 {
@@ -68,46 +51,4 @@ h3 {
   width: auto;
   display: block;
   margin: 10px auto;
-}
-
-@keyframes laptop {
-  0% {
-    transform: perspective(100px) rotate(0deg);
-  }
-  10% {
-    transform: perspective(100px) rotateX(180deg) rotateY(0);
-  }
-  20% {
-    transform: perspective(100px) rotateX(180deg) rotateY(180deg);
-  }
-  30% {
-    transform: perspective(100px) rotateX(0) rotateY(180deg);
-  }
-  40% {
-    transform: perspective(100px) rotateX(0) rotateY(0);
-  }
-  100% {
-    transform: perspective(100px) rotateX(0) rotateY(0);
-  }
-}
-
-@keyframes fist {
-  0% {
-    transform: perspective(100px) rotate(0deg);
-  }
-  10% {
-    transform: perspective(100px) rotateX(180deg) rotateY(0);
-  }
-  20% {
-    transform: perspective(100px) rotateX(180deg) rotateY(180deg);
-  }
-  30% {
-    transform: perspective(100px) rotateX(0) rotateY(180deg);
-  }
-  40% {
-    transform: perspective(100px) rotateX(0) rotateY(0);
-  }
-  100% {
-    transform: perspective(100px) rotateX(0) rotateY(0);
-  }
 }
