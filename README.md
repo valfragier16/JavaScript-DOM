@@ -1,2 +1,2 @@
 # JavaScript-DOM
-Please refer to [Lab](DOM-Lab-Site.md) and/or [Drill](js-dom-drill.md)
+Please refer to [Project](DOM-Lab-Site.md) and/or [Lab](js-dom-drill.md)
